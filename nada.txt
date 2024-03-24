@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 -...Hola!
 -Que tal?
+=======
+#...Hola!
+>>>>>>> ea2aaedacad337f70e50e678eea847ab0e3f56d1
