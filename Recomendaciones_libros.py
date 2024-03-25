@@ -31,7 +31,7 @@ def agregar_libro():
 
 def buscar_libros_por_genero():
     genero_busqueda = input("Ingrese el género que desea buscar: ")
-    libros_en_genero = [libro.titulo for libro in lista_libros]
+    libros_en_genero = [libro.titulo for libro in lista_libros if libro.genero.lower() == genero_busqueda.lower()]
     if libros_en_genero:
         print("Libros en el género", genero_busqueda + ":")
         for titulo in libros_en_genero:
